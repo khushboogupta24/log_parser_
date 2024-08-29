@@ -179,7 +179,9 @@ def parse_lookup_table(lookup_file):
     return tag_lookup
 
 def process_flow_logs(flow_file, tag_lookup):
-    """Process the flow log file and return the counts of tags and port/protocol combinations."""
+    #Process log file 
+    #counting the tag count & port/protocol count
+    #return the counts
     tag_counts = defaultdict(int)
     port_protocol_counts = defaultdict(int)
     untagged_count = 0
@@ -202,7 +204,7 @@ def process_flow_logs(flow_file, tag_lookup):
                     else:
                         untagged_count += 1
                 else:
-                    print(f"Warning: Skipping invalid log line: {line.strip()}")
+                    print(f"Warning: Skipping invalid log")
     except FileNotFoundError:
         print(f"Error: The file {flow_file} was not found.")
     except Exception as e:
