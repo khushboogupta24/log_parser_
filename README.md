@@ -46,7 +46,8 @@ Error Handling:
 
 Untagged Entries:
 
-If a flow log entry does not match any entry in the lookup table, it is counted as "Untagged."
+
+        If a flow log entry does not match any entry in the lookup table, it is counted as "Untagged."
 
 Installation and Setup
 
@@ -107,4 +108,4 @@ Analysis and Further Considerations
 
         Efficient: Run on any machine with Python installed without additional setup.
 
-        Extensibie/Polymorphic: Support additional protocols, custom log formats
+        Extensible/Polymorphic: Support additional protocols, custom log formats
