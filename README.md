@@ -71,6 +71,8 @@ Run the Program:
 Save the provided Python script (log_parser.py) in a directory.
 
 Run the program using the following command:
+
+
         python3 log_parser.py 
 
 
@@ -79,27 +81,30 @@ Testing and Validation
 
 Tests Performed
 
-Basic Functionality:
-    Tested with sample flow logs and lookup tables to ensure correct tagging and counting.
+    Basic Functionality:
+            Tested with sample flow logs and lookup tables to ensure correct tagging and counting.
 
-Validation
-    Compare Outputs: Manually verify that the output matches expected results based on your sample data.
+    Validation
+            Compare Outputs: Manually verify that the output matches expected results based on your sample data.
 
 Edge Cases:
-    Empty logs.txt
-    No matching entries in lookup.csv.
-    Logs with protocols not included in protocol_mapping.
+
+
+        Empty logs.txt
+        No matching entries in lookup.csv.
+        Logs with protocols not included in protocol_mapping.
 
 
 Known Limitations
 
 
-Custom Log Formats: The program does not support custom log formats. Only the default format as described is supported.
+        Custom Log Formats: The program does not support custom log formats. Only the default format as described is supported.
 
 Analysis and Further Considerations
 
-Simple: Only Python's built-in libraries
 
-Efficient: Run on any machine with Python installed without additional setup.
+        Simple: Only Python's built-in libraries
 
-Extensibie/Polymorphic: Support additional protocols, custom log formats
+        Efficient: Run on any machine with Python installed without additional setup.
+
+        Extensibie/Polymorphic: Support additional protocols, custom log formats
