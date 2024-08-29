@@ -1,7 +1,7 @@
 import csv
 from collections import defaultdict
 
-# Protocol numbers and their corresponding names from IANA
+#Protocol numbers mapped to name by IANA
 protocol_mapping = {
     "0": "HOPOPT",
     "1": "icmp",
